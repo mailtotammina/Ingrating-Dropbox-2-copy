@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  Ingrating Dropbox
 //
-//  Created by Ramakrishna Makkena on 1/26/15.
-//  Copyright (c) 2015 nwmissouri. All rights reserved.
+//  Created by Manoj Tammina on 3/31/15.
+//  Copyright (c) 2015 tammia. All rights reserved
 //
 
 #import "AppDelegate.h"
+#import <DBChooser/DBChooser.h>
+#import <DropboxSDK/DropboxSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +19,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    DBSession *dbSession = [[DBSession alloc]
+                            initWithAppKey:@"kq4ywh6869egge7"
+                            appSecret:@"3xszhqn68x3jlf9"
+                            root:kDBRootDropbox]; // either kDBRootAppFolder or kDBRootDropbox
+    [DBSession setSharedSession:dbSession];
     return YES;
+}
+
+//- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url
+//  sourceApplication:(NSString *)source annotation:(id)annotation
+//{
+//    
+//    if ([[DBChooser defaultChooser] handleOpenURL:url]) {
+//        // This was a Chooser response and handleOpenURL automatically ran the
+//        // completion block
+//        return YES;
+//    }
+//    
+//    return NO;
+//}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url
+  sourceApplication:(NSString *)source annotation:(id)annotation {
+    if ([[DBSession sharedSession] handleOpenURL:url]) {
+        if ([[DBSession sharedSession] isLinked]) {
+            NSLog(@"App linked successfully!");
+            // At this point you can start making API calls
+        }
+        return YES;
+    }
+    // Add whatever other url handling code your app requires here
+    return NO;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

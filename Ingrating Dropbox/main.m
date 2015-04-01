@@ -2,8 +2,8 @@
 //  main.m
 //  Ingrating Dropbox
 //
-//  Created by Ramakrishna Makkena on 1/26/15.
-//  Copyright (c) 2015 nwmissouri. All rights reserved.
+//  Created by Manoj Tammina on 3/31/15.
+//  Copyright (c) 2015 tammia. All rights reserved
 //
 
 #import <UIKit/UIKit.h>

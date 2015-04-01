@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A85ACC61ACB068A00511F89 /* ImagesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85ACC51ACB068A00511F89 /* ImagesCollectionViewController.m */; };
+		2A85ACC91ACB167200511F89 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A85ACC81ACB167200511F89 /* PhotoCollectionViewCell.m */; };
 		2A96CD561A76961F00BBFAFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A96CD551A76961F00BBFAFA /* main.m */; };
 		2A96CD591A76961F00BBFAFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A96CD581A76961F00BBFAFA /* AppDelegate.m */; };
 		2A96CD5C1A76961F00BBFAFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A96CD5B1A76961F00BBFAFA /* ViewController.m */; };
@@ -14,6 +16,19 @@
 		2A96CD611A76961F00BBFAFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A96CD601A76961F00BBFAFA /* Images.xcassets */; };
 		2A96CD641A76961F00BBFAFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A96CD621A76961F00BBFAFA /* LaunchScreen.xib */; };
 		2A96CD701A76961F00BBFAFA /* Ingrating_DropboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A96CD6F1A76961F00BBFAFA /* Ingrating_DropboxTests.m */; };
+		2A96CD7B1A769D0F00BBFAFA /* DBChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A96CD791A769D0F00BBFAFA /* DBChooser.bundle */; };
+		2A96CD7C1A769D0F00BBFAFA /* DBChooser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A96CD7A1A769D0F00BBFAFA /* DBChooser.framework */; };
+		2A96CD7E1A76A79600BBFAFA /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A96CD7D1A76A79600BBFAFA /* DropboxSDK.framework */; };
+		2A96CD801A76A7D500BBFAFA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A96CD7F1A76A7D500BBFAFA /* Security.framework */; };
+		2A96CD821A76A7E000BBFAFA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A96CD811A76A7E000BBFAFA /* QuartzCore.framework */; };
+		2AB2A7441ACC50660084741E /* NotePadTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2A7431ACC50660084741E /* NotePadTableTableViewController.m */; };
+		2AB2ECFE1ACB1E58004C3DF9 /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2ECFD1ACB1E58004C3DF9 /* PhotoDetailViewController.m */; };
+		2AEE2DA21A7D480D00446B2A /* DropboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE2DA11A7D480D00446B2A /* DropboxManager.m */; };
+		2AEE2DA91A7D532300446B2A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEE2DA81A7D532300446B2A /* libsqlite3.0.dylib */; };
+		AF5847991ACB45E10074FF0A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5847981ACB45E10074FF0A /* AVFoundation.framework */; };
+		AF6890CE1ACC2E8E006677E1 /* AudioRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6890CD1ACC2E8E006677E1 /* AudioRecorderViewController.m */; };
+		AF6890DB1ACC83EB006677E1 /* NewNote.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6890DA1ACC83EB006677E1 /* NewNote.m */; };
+		AF6890DE1ACC89D1006677E1 /* NoteDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6890DD1ACC89D1006677E1 /* NoteDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A85ACC41ACB068A00511F89 /* ImagesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagesCollectionViewController.h; path = ../ImagesCollectionViewController.h; sourceTree = "<group>"; };
+		2A85ACC51ACB068A00511F89 /* ImagesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagesCollectionViewController.m; path = ../ImagesCollectionViewController.m; sourceTree = "<group>"; };
+		2A85ACC71ACB167200511F89 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		2A85ACC81ACB167200511F89 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		2A96CD501A76961F00BBFAFA /* Ingrating Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ingrating Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A96CD541A76961F00BBFAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A96CD551A76961F00BBFAFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +59,25 @@
 		2A96CD691A76961F00BBFAFA /* Ingrating DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ingrating DropboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A96CD6E1A76961F00BBFAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A96CD6F1A76961F00BBFAFA /* Ingrating_DropboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ingrating_DropboxTests.m; sourceTree = "<group>"; };
+		2A96CD791A769D0F00BBFAFA /* DBChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DBChooser.bundle; sourceTree = "<group>"; };
+		2A96CD7A1A769D0F00BBFAFA /* DBChooser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DBChooser.framework; sourceTree = "<group>"; };
+		2A96CD7D1A76A79600BBFAFA /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		2A96CD7F1A76A7D500BBFAFA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A96CD811A76A7E000BBFAFA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2AB2A7421ACC50660084741E /* NotePadTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePadTableTableViewController.h; sourceTree = "<group>"; };
+		2AB2A7431ACC50660084741E /* NotePadTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePadTableTableViewController.m; sourceTree = "<group>"; };
+		2AB2ECFC1ACB1E58004C3DF9 /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		2AB2ECFD1ACB1E58004C3DF9 /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		2AEE2DA01A7D480D00446B2A /* DropboxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxManager.h; sourceTree = "<group>"; };
+		2AEE2DA11A7D480D00446B2A /* DropboxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxManager.m; sourceTree = "<group>"; };
+		2AEE2DA81A7D532300446B2A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		AF5847981ACB45E10074FF0A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF6890CC1ACC2E8E006677E1 /* AudioRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorderViewController.h; sourceTree = "<group>"; };
+		AF6890CD1ACC2E8E006677E1 /* AudioRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderViewController.m; sourceTree = "<group>"; };
+		AF6890D91ACC83EB006677E1 /* NewNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewNote.h; sourceTree = "<group>"; };
+		AF6890DA1ACC83EB006677E1 /* NewNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewNote.m; sourceTree = "<group>"; };
+		AF6890DC1ACC89D1006677E1 /* NoteDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailView.h; sourceTree = "<group>"; };
+		AF6890DD1ACC89D1006677E1 /* NoteDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +85,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5847991ACB45E10074FF0A /* AVFoundation.framework in Frameworks */,
+				2AEE2DA91A7D532300446B2A /* libsqlite3.0.dylib in Frameworks */,
+				2A96CD821A76A7E000BBFAFA /* QuartzCore.framework in Frameworks */,
+				2A96CD801A76A7D500BBFAFA /* Security.framework in Frameworks */,
+				2A96CD7E1A76A79600BBFAFA /* DropboxSDK.framework in Frameworks */,
+				2A96CD7C1A769D0F00BBFAFA /* DBChooser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +107,13 @@
 		2A96CD471A76961E00BBFAFA = {
 			isa = PBXGroup;
 			children = (
+				AF5847981ACB45E10074FF0A /* AVFoundation.framework */,
+				2AEE2DA81A7D532300446B2A /* libsqlite3.0.dylib */,
+				2A96CD811A76A7E000BBFAFA /* QuartzCore.framework */,
+				2A96CD7F1A76A7D500BBFAFA /* Security.framework */,
+				2A96CD7D1A76A79600BBFAFA /* DropboxSDK.framework */,
+				2A96CD791A769D0F00BBFAFA /* DBChooser.bundle */,
+				2A96CD7A1A769D0F00BBFAFA /* DBChooser.framework */,
 				2A96CD521A76961F00BBFAFA /* Ingrating Dropbox */,
 				2A96CD6C1A76961F00BBFAFA /* Ingrating DropboxTests */,
 				2A96CD511A76961F00BBFAFA /* Products */,
@@ -81,10 +132,26 @@
 		2A96CD521A76961F00BBFAFA /* Ingrating Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				2AB2ECFC1ACB1E58004C3DF9 /* PhotoDetailViewController.h */,
+				2AB2ECFD1ACB1E58004C3DF9 /* PhotoDetailViewController.m */,
+				2A85ACC71ACB167200511F89 /* PhotoCollectionViewCell.h */,
+				2A85ACC81ACB167200511F89 /* PhotoCollectionViewCell.m */,
+				2A85ACC41ACB068A00511F89 /* ImagesCollectionViewController.h */,
+				2A85ACC51ACB068A00511F89 /* ImagesCollectionViewController.m */,
 				2A96CD571A76961F00BBFAFA /* AppDelegate.h */,
 				2A96CD581A76961F00BBFAFA /* AppDelegate.m */,
 				2A96CD5A1A76961F00BBFAFA /* ViewController.h */,
 				2A96CD5B1A76961F00BBFAFA /* ViewController.m */,
+				AF6890CC1ACC2E8E006677E1 /* AudioRecorderViewController.h */,
+				AF6890CD1ACC2E8E006677E1 /* AudioRecorderViewController.m */,
+				2AB2A7421ACC50660084741E /* NotePadTableTableViewController.h */,
+				2AB2A7431ACC50660084741E /* NotePadTableTableViewController.m */,
+				AF6890D91ACC83EB006677E1 /* NewNote.h */,
+				AF6890DA1ACC83EB006677E1 /* NewNote.m */,
+				AF6890DC1ACC89D1006677E1 /* NoteDetailView.h */,
+				AF6890DD1ACC89D1006677E1 /* NoteDetailView.m */,
+				2AEE2DA01A7D480D00446B2A /* DropboxManager.h */,
+				2AEE2DA11A7D480D00446B2A /* DropboxManager.m */,
 				2A96CD5D1A76961F00BBFAFA /* Main.storyboard */,
 				2A96CD601A76961F00BBFAFA /* Images.xcassets */,
 				2A96CD621A76961F00BBFAFA /* LaunchScreen.xib */,
@@ -200,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A96CD5F1A76961F00BBFAFA /* Main.storyboard in Resources */,
+				2A96CD7B1A769D0F00BBFAFA /* DBChooser.bundle in Resources */,
 				2A96CD641A76961F00BBFAFA /* LaunchScreen.xib in Resources */,
 				2A96CD611A76961F00BBFAFA /* Images.xcassets in Resources */,
 			);
@@ -219,8 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A85ACC91ACB167200511F89 /* PhotoCollectionViewCell.m in Sources */,
+				2AEE2DA21A7D480D00446B2A /* DropboxManager.m in Sources */,
+				2AB2ECFE1ACB1E58004C3DF9 /* PhotoDetailViewController.m in Sources */,
 				2A96CD5C1A76961F00BBFAFA /* ViewController.m in Sources */,
+				2A85ACC61ACB068A00511F89 /* ImagesCollectionViewController.m in Sources */,
+				AF6890DB1ACC83EB006677E1 /* NewNote.m in Sources */,
 				2A96CD591A76961F00BBFAFA /* AppDelegate.m in Sources */,
+				AF6890CE1ACC2E8E006677E1 /* AudioRecorderViewController.m in Sources */,
+				AF6890DE1ACC89D1006677E1 /* NoteDetailView.m in Sources */,
+				2AB2A7441ACC50660084741E /* NotePadTableTableViewController.m in Sources */,
 				2A96CD561A76961F00BBFAFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +421,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ingrating Dropbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +435,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ingrating Dropbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +498,7 @@
 				2A96CD751A76961F00BBFAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A96CD761A76961F00BBFAFA /* Build configuration list for PBXNativeTarget "Ingrating DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +507,7 @@
 				2A96CD781A76961F00BBFAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
